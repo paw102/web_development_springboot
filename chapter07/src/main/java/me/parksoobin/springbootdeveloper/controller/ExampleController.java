@@ -51,4 +51,20 @@ public class ExampleController {
     즉, 스프링 부트는 Controller 의 @Controller 애너테이션을 보고
     '리턴 값의 이름 을 가진 뷰의 파일을 찾으라고' 알아듣고서
     resources/templates 디렉터리에서 example.html 을 찾은 당므에 웹 브라우저에 해당 파일을 보여줍니다.
+
+    모델 역할 살펴 보면
+        이제 모델 "person", "today" 이렇게 두 키를 가진 데이터가 들어가 있습니다.
+        컨트롤러는 모델을 통해서 (앞으로 자주 쓸거다) 데이터를 설정하고,
+        모델은 뷰로 해당 데이터를 전달해서 키에 맞는 데이터를 뷰에서 조회할 수 있게 만들어줍니다.
+
+        즉, 모델은 컨트롤러와 뷰의 중간다리 역할을 해준다고 생각하시면 됩니다.
+
+                                                    "person" id: 1
+                                                     name: "홍길동              뷰에서 사용할 수 있게
+                    컨트롤러에서 데이터 설정             age : 11                      데이터 전달
+컨트롤러(Controller)---------------------->           hobbies : ["운동", "독서"] -------------------> 뷰(View)
+                                                    모델(Model)
+
+    다 하신 분들은 src/main/resources/templates 디렉토리에 example.html 을 만들겁니다.
+
  */

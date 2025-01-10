@@ -1,4 +1,11 @@
 package me.parksoobin.springbootdeveloper;
+/*
+    서버 실행 안될 때 질문하기 전에 한번 시도해보기
+    1. 삼단바 -> build -> rebuild project
+    2. intellij 전부 다 끄고 재시작
+    3. SpringBootDeveloperApplication.java 들어와서
+    4. current file 인거 확인하고 재시작
+ */
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
