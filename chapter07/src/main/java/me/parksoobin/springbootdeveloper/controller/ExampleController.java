@@ -59,11 +59,11 @@ public class ExampleController {
 
         즉, 모델은 컨트롤러와 뷰의 중간다리 역할을 해준다고 생각하시면 됩니다.
 
-                                                    "person" id: 1
-                                                     name: "홍길동              뷰에서 사용할 수 있게
-                    컨트롤러에서 데이터 설정             age : 11                      데이터 전달
-컨트롤러(Controller)---------------------->           hobbies : ["운동", "독서"] -------------------> 뷰(View)
-                                                    모델(Model)
+                                                "person" id: 1
+                                                name: "홍길동              뷰에서 사용할 수 있게
+                    컨트롤러에서 데이터 설정         age : 11                      데이터 전달
+컨트롤러(Controller)---------------------->       hobbies : ["운동", "독서"] -------------------> 뷰(View)
+                                                모델(Model)
 
     다 하신 분들은 src/main/resources/templates 디렉토리에 example.html 을 만들겁니다.
 

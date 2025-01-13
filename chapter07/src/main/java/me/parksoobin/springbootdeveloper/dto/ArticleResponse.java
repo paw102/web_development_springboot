@@ -13,6 +13,7 @@ public class ArticleResponse {
         this.title = article.getTitle();
         this.content = article.getContent();
     }
+
     /*
         글은 제목과 내용 구성으로 이루어져 있으므로 해당 필드를 가지는 클래스를 만들었습니다
         -> ArticleResponse 클래스를 만들었다는 의미
