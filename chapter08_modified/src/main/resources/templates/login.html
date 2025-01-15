@@ -17,11 +17,11 @@
     <div class="card bg-dark" style="border-radius: 1rem;">
       <div class="card-body p-5 text-center">
         <h2 class="text-white">LOGIN</h2>
-        <p class="text-white-50 mt-2 mb-5">서비스를 이용하려면 로그인 하시오.</p>
+        <p class="text-white-50 mt-2 mb-5">서비스를 사용하려면 로그인을 해주세요!🎈</p>
 
         <div class="mb-2">
           <form action="/login" method="POST">
-            <input type="hidden" th:name="${_csrf?.parameterName}" th:value="${_csrf?.token}"/>
+            <input type="hidden" th:name="${_csrf?.parameterName}" th:value="${_csrf?.token}" />
             <div class="mb-3">
               <label class="form-label text-white">Email address</label>
               <input type="email" class="form-control" name="username">

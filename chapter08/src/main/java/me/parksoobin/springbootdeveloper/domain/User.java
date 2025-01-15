@@ -14,7 +14,7 @@ import java.util.List;
 
 import static java.util.List.of;
 
-@Table
+@Table(name = "users")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Entity
