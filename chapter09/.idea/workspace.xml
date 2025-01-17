@@ -5,21 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a65390f0-4b6b-4d2e-af03-4ff6fe2e3dfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdevloper/config/jwt/JwtFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/java/me/ahngeunsu/springbootdeveloper/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/SpringSecurityFilterChain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/main/resources/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ahngeunsu/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/TokenProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdevloper/config/jwt/JwtFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/ahngeunsu/springbootdeveloper/config/jwt/JwtFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +91,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.TokenProviderTest.executor": "Run",
-    "Gradle.TokenProviderTest.getAuthentication.executor": "Run",
-    "Gradle.TokenProviderTest.getUserId.executor": "Run",
-    "Gradle.TokenProviderTest.validToken_invalidToken.executor": "Run",
-    "Gradle.TokenProviderTest.validToken_validToken.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/parksoobin/web_development_springboot",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.TokenApiControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokenProviderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokenProviderTest.getAuthentication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokenProviderTest.getUserId.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokenProviderTest.validToken_invalidToken.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TokenProviderTest.validToken_validToken.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/parksoobin/web_development_springboot&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\parksoobin\web_development_springboot\chapter09\src\main\resources" />
@@ -83,7 +123,31 @@
       <recent name="me.ahngeunsu.springbootdeveloper.config.jwt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TokenProviderTest.getUserId">
+  <component name="RunManager" selected="Gradle.TokenApiControllerTest">
+    <configuration name="TokenApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.ahngeunsu.springbootdeveloper.controller.TokenApiControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="TokenProviderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,37 +244,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TokenProviderTest.validToken_validToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;me.ahngeunsu.springbootdeveloper.config.jwt.TokenProviderTest.validToken_validToken&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TokenApiControllerTest" />
         <item itemvalue="Gradle.TokenProviderTest.getUserId" />
         <item itemvalue="Gradle.TokenProviderTest.getAuthentication" />
         <item itemvalue="Gradle.TokenProviderTest.validToken_invalidToken" />
         <item itemvalue="Gradle.TokenProviderTest" />
-        <item itemvalue="Gradle.TokenProviderTest.validToken_validToken" />
       </list>
     </recent_temporary>
   </component>
